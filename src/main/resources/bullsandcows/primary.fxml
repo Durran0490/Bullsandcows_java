@@ -23,7 +23,7 @@
                      HBox.hgrow="ALWAYS"/>
             <Spinner fx:id="num4" initialValue="0" min="0" max="9" prefWidth="80" maxWidth="-Infinity" minWidth="70"
                      HBox.hgrow="ALWAYS"/>
-            <Button text="GO!" prefWidth="85" minWidth="80" onAction="#doTurn"/>
+            <Button fx:id="goButton" text="GO!" prefWidth="85" minWidth="80" onAction="#doTurn"/>
         </HBox>
     </top>
     <center>
